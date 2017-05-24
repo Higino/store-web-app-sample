@@ -125,7 +125,7 @@ class ProductListing extends Component {
             "manufacturing_country": "Croatia"
             }];
 
-    const listProducts = products.map((e) => {
+      const listProducts = products.map((e) => {
       return  <div>
                 <hr/><p className="App-intro">
                 <img src={e.product_avatar} alt='cannot load'/><br/>
